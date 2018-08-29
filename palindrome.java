@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class palindrome {
-	public static viod main(String[] args) {
+	public static void main(String[] args) {
 		String userInput, reverse;
 		Scanner i = new Scanner(System.in);
 		System.out.print("Enter a string to test if palindrome: ");
