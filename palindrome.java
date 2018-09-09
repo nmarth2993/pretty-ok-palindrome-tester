@@ -1,3 +1,9 @@
+/*
+ * Copyright 2018 Nicholas Marthinuss
+ * https://github.com/nmarth2993
+ * Licensed under the MIT License
+ */
+
 import java.util.Scanner;
 
 public class palindrome {
