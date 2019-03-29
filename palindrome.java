@@ -6,12 +6,11 @@
 
 import java.util.*;
 
-public class palindrome {
+public class p {
 	public static void main(String[] args) {
-		String s, r;
-		Scanner i = new Scanner(System.in);
-		System.out.print("Enter a string to test if palindrome: ");
-		System.out.print((s = i.nextLine().replaceAll(" ", "")).equalsIgnoreCase(r 
-			= new StringBuilder(s).reverse().toString()));
+		String s;
+		System.out.print("p: ");
+		System.out.print((s = new Scanner(System.in).nextLine().replaceAll(" ", ""))
+				.equalsIgnoreCase(new StringBuilder(s).reverse().toString()));
 	}
 }
