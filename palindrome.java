@@ -8,10 +8,10 @@ import java.util.*;
 
 public class palindrome {
 	public static void main(String[] args) {
-		String userInput, reverse;
+		String s, r;
 		Scanner i = new Scanner(System.in);
 		System.out.print("Enter a string to test if palindrome: ");
-		System.out.print((userInput = i.nextLine().replaceAll(" ", "")).equalsIgnoreCase(reverse 
-			= new StringBuilder(userInput).reverse().toString()));
+		System.out.print((s = i.nextLine().replaceAll(" ", "")).equalsIgnoreCase(r 
+			= new StringBuilder(s).reverse().toString()));
 	}
 }
