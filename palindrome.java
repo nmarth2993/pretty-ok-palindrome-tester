@@ -7,7 +7,7 @@
 import java.util.*;
 
 public class p {
-	public static void main(String[] args) {
+	public static void main(String[] a) {
 		String s;
 		System.out.print("p: ");
 		System.out.print((s = new Scanner(System.in).nextLine().replaceAll(" ", ""))
