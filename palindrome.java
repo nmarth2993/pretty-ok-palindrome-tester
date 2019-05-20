@@ -9,8 +9,7 @@ import java.util.*;
 public class p {
 	public static void main(String[] a) {
 		String s;
-		System.out.print("p: ");
-		System.out.print((s = new Scanner(System.in).nextLine().replaceAll(" ", ""))
+		System.out.print("p:" + (s = new Scanner(System.in).nextLine().replaceAll(" ", ""))
 				.equalsIgnoreCase(new StringBuilder(s).reverse().toString()));
 	}
 }
